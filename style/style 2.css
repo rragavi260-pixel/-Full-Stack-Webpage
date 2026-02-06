@@ -1,0 +1,172 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #efe9e9;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  color: purple;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.search-bar {
+  width: 40%;
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  background-color: #ecd4ed;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #161010;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 28px;
+  background-color: #b8bbd6;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 18px;
+  
+
+}
+.nav a:hover {
+  background-color: #9fa3cc;
+  transform: translateY(-3px);
+  box-shadow: 4px 6px 0 #333; 
+}
+.nav a:hover {
+  background-color: purple;
+  color: rgb(254, 254, 254);
+}
+
+.banner {
+  background-color: #fff7e6;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.banner button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+
+.product-section {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.product-images {                  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-images img {
+  width: 80px;
+  height: auto;
+  border: 1px solid #ef1313;
+  border-radius: 6px;
+
+}
+
+
+.main-image img {
+  width: 350px;
+  border-radius: 8px;
+
+
+}
+
+.product-details {
+  max-width: 300px;
+}
+
+.price {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.size-box {
+  margin: 15px 0;
+}
+
+.sizes {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.sizes button {
+  border: 1px solid #c30d0d;
+  background-color: #f2f4f4;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.actions {
+  margin: 15px 0;
+}
+
+.cart-btn, .buy-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.cart-btn {
+  background-color: #dc717a;
+}
+
+.buy-btn {
+  background-color: #cb7aeb;
+}
+
+.details {
+  background-color: #e6e2e5;
+  padding: 10px;
+  border-radius: 6px;
+}
+
